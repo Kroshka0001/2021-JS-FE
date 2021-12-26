@@ -20,6 +20,7 @@ Hi, I am a beginner junior front-end developer, I love learning and improving my
 - __MySQL__
 - __Photoshop__
 - __CorelDRAW__
+- __Figma Community__
 - __3ds Max__
 - __Flash__
 
