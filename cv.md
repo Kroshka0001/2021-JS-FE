@@ -25,7 +25,8 @@ Hi, I am a beginner junior front-end developer, I love learning and improving my
 
 ## __Past projects__
 - __[www.street](https://kroshka0001.github.io/www.street)__
--
+- __[www_makets](https://photos.app.goo.gl/T26PkSvmghcUrnPn6)__
+- __[cv](https://kroshka0001.github.io/rsschool-cv)__
 
 ## __Experience__
 
