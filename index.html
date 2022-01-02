@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Julia Laptsinskaya CV</title>
   </head>
   <body>
 	<header>
+		<section class="menu">
+			<nav class="menu">
+				<ul class="site-menu">
+				  <li class="menu_item"><a class="menu__link" href="#contact">Contacts</a></li>
+				  <li class="menu_item"><a class="menu__link" href="#courses">Courses</a></li>
+				  <li class="menu_item"><a class="menu__link" href="#skill">Skills</a></li>
+				  <li class="menu_item"><a class="menu__link" href="#lang">Languages</a></li>
+				  <li class="menu_item"><a class="menu__link" href="#info">About Me</a></li>
+				  <li class="menu_item"><a class="menu__link" href="#education">Education</a></li>
+				  <li class="menu_item"><a class="menu__link" href="#project">Project</a></li>
+
+				  <li class="menu_item"><a class="menu__link" href="#code">Example Code</a></li>
+				  <li class="menu_item"><a class="menu__link" href="#video">Video</a></li>
+
+				</ul>
+			  </nav>
+		</section>
 		<div>
 		  <span class="photo">
 			<img src="images/laptsinskaya_photo.png" alt="laptsinskaya_photo" title="laptsinskaya_photo">
@@ -20,7 +37,7 @@
             <h3 class="header__subtitle">Junior web developer</h3>
 	    </div>
 
-		<section class="contact">
+		<section id="contact" class="contact">
 		<h2> Contacts</h2>
 	      <ul class="contact_icon">
             <li class="numb">
@@ -37,10 +54,9 @@
     </header>
 	<main>
 
-
         <div class="left_content">
 
-			<div class="courses">
+			<div id="courses" class="courses">
 				<div class="courses_icon" > </div>
 					<h2>Courses:</h2>
 						<ul>
@@ -56,7 +72,7 @@
 						</ul>
 			</div>
 
-			<div class="skill">
+			<div id="skill" class="skill">
 				<div class="skill_icon"> </div>
 					<h2> Skills</h2>
 						<ul class="skills">
@@ -90,7 +106,7 @@
 						</ul>
 			</div>
 
-			<div class="lang">
+			<div id="lang" class="lang">
 				<div class="lang_icon" > </div>
 					<h2>languages:</h2>
 						<ul>
@@ -100,22 +116,26 @@
 							<li>
 								<h4>Polish level - A1</h4>
 							</li>
+							<li>
+								<h4> Russian Native </h4>
+							</li>
+							<li>
+								<h4> Belarusian Native </h4>
+							</li>
+
 						</ul>
 			</div>
 		</div>
 
-
-
-
 		<div class="right_content">
 
-			<div class="info">
+			<div id="info" class="info">
 				<div class="info_icon"> </div>
 				<h2>About Me</h2>
 				<h4> Hi, I am a beginner junior front-end developer, I love learning and improving my knowledge and skills. </h4>
 			</div>
 
-			<div class="education">
+			<div id="education" class="education">
 				<div class="education_icon"> </div>
 				<h2> Education</h2>
 			    <h4>Polotsk State University</h4>
@@ -128,23 +148,57 @@
 				    <p class="data"> 2010-2012</p><br>
 			</div>
 
-			<div class="project">
+			<div id="project" class="project">
 				<div class="project_icon"> </div>
 				<h2>Past projects</h2>
 
-							<a class="project_p" href="https://kroshka0001.github.io/www.street" title="www.street" target="_blank"> www.street </a>
-							<a class="project_w" href="https://photos.app.goo.gl/T26PkSvmghcUrnPn6" title="www_makets" target="_blank"> www_makets </a>
+				<div class="content_p">
 
+				<div class="view view-first">
+					<img src="images/ico_street.jpg" alt="www.street" title="www.street" />
+					<div class="mask">
+					  <h2>www.street</h2>
+					  <p>Website development for the streets of the Minsk</p>
+					  <a href="https://kroshka0001.github.io/www.street" title="www.street" target="_blank" class="info">перейти</a>
+					</div>
 
+				  </div>
 
+					<div class="view view-first">
+					<img src="images/ico_makets_sites.jpg" alt="www_makets" title="www_makets" />
+					<div class="mask">
+					  <h2>www_makets</h2>
+					  <p>Website design and development</p>
+					  <a href="https://photos.app.goo.gl/T26PkSvmghcUrnPn6" title="www_makets" target="_blank" class="info">перейти</a>
+					</div>
+				  </div>
+
+			   </div>
+
+			</div>
+
+			<div id="code" class="code">
+				<div class="code_icon"> </div>
+				<h2>Example Code</h2>
+					<div class="ex_code">
+						<pre><code id="codes">
+	function absentVowel(x){
+		var vowels = 'aeiou';
+
+		for (var i in vowels) {
+			if (x.toLowerCase().indexOf(vowels[i]) == -1) {
+				return Number(i);
+			}
+		}
+	}
+						</code></pre>
+					</div>
 			</div>
 
 		</div>
-
 			<div class="v1">
 
 			</div>
-
 
 	</main>
 	<footer class="footer">
@@ -166,7 +220,7 @@
 					<img src="images/insta_icon.png" alt="instagram icon"></a>
 		</div>
 	</div>
-		<p> Julia Laptsinskaya 2021</p>
+		<p> Julia Laptsinskaya 2022</p>
 	</footer>
 
   </body>
